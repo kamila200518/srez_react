@@ -1,0 +1,63 @@
+.back {
+    color: white;
+    background-color: rgb(19, 19, 19);
+    padding: 10px 20px;
+    width: max-content;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.back:hover{
+    background-color: rgb(174, 172, 172);
+    color:rgb(19, 19, 19);
+}
+.main_flex {
+    display: flex;
+    justify-content: space-between;margin-top: 25px;
+}
+
+.main_flex img {
+    width: 500px;
+    aspect-ratio: 1/1
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.right_flex{
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.bottom_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    color:rgb(19, 19, 19);
+    font-size: 32px;
+}
+
+.add_brn{
+    background-color: rgb(19, 19, 19);
+    color:white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;;
+}
+
+.add_brn:hover{
+    background-color: rgb(174, 172, 172);
+    color:rgb(19, 19, 19);
+}
